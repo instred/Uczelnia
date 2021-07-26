@@ -1,0 +1,8 @@
+Aby stworzyć aplikacje musimy najpierw otworzyć konsole, następnie za pomocą composera stworzyc projekt, 
+który stworzy się w obecnym folderze za pomocą na przykład polecenia "composer create-project symfony/skeleton <nazwa>"
+Następnie uruchamiamy Apache np. Wampp po czym przechodzimy do naszego folderu z projektem "cd <nazwa>", po czym
+uruchamiamy serwer symfony, za pomocą "symfony server:start" Pokaże się nam adres typu 127:0.0.1:port, który wpisujemy
+w przeglądarke.
+Komenda symfony self:about mówi nam jaką wersje posiadamy oraz podstawowe informacje.
+Komenda router:match służy do znajdywania konkretnych ścieżek przypisanych do adresu.
+Przykładowo, router:match /default/controller znajdzie wszystkie scieżki i obecne w nich klasy przypisane do tego miejsca.

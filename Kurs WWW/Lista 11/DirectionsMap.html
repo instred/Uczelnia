@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <script type='text/javascript'>
+        var map;
+        var directionsManager;
+
+        function GetMap()
+        {
+            map = new Microsoft.Maps.Map('#myMap', {
+                // Klucz tworzony kontem bingmaps, wymagany do działania map
+            credentials: 'AisvicUaCHemKuVW5W6dpLVvRqmqu5OYk1wzs0pjojYbOwpfRxwg5vE1w4xoHXIl',
+            center: new Microsoft.Maps.Location(51.8, 20.0333),
+            zoom: 7
+            
+            });
+
+            //Load the directions module.
+            Microsoft.Maps.loadModule('Microsoft.Maps.Directions', function () {
+                //Create an instance of the directions manager.
+                directionsManager = new Microsoft.Maps.Directions.DirectionsManager(map);
+
+                // Punkty wpisane na sztywno
+
+                var punktA=new Microsoft.Maps.Directions.Waypoint({adress:'Wroclaw' ,location: new Microsoft.Maps.Location(51.103435587109885, 17.03916688129898)});
+                directionsManager.addWaypoint(punktA);
+                
+                var punktB=new Microsoft.Maps.Directions.Waypoint({adress:'Warszawa',location: new Microsoft.Maps.Location(52.22247387193608, 21.01861541842595)});
+                directionsManager.addWaypoint(punktB);
+
+                //Specify where to display the route instructions.
+                directionsManager.setRenderOptions({ itineraryContainer: '#directionsItinerary' });
+
+                //Specify the where to display the input panel
+                directionsManager.showInputPanel('directionsPanel');
+            });
+        }
+    </script>
+    <script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=[YOUR_BING_MAPS_KEY]' async defer></script>
+    <style>
+        html, body{
+            padding:0;
+            margin:0;
+            height:100%;
+        }
+
+        .directionsContainer{
+            width:380px;
+            height:100%;
+            overflow-y:auto;
+            float:left;
+        }
+
+        #myMap{
+            position:relative;
+            width:calc(100% - 380px);
+            height:100%;
+            float:left;
+        }
+    </style>
+</head>
+<body>
+    <div class="directionsContainer">
+        <div id="directionsPanel"></div>
+        <div id="directionsItinerary"></div>
+    </div>
+    <div id="myMap"></div>
+</body>
+</html>

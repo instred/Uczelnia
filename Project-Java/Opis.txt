@@ -1,0 +1,12 @@
+Jest to gra typu Alien Shooter.
+Gracz wciela się w statek i jego zadaniem jest zestrzelenie wszystkich wrogów, którzy z każdym przeciwnikiem zestrzelonym,
+przyspieszają o 2%. Gracz musi zdążyć zestrzelić wszystkich, zanim wróg go dopadnie.
+W grze znajduję się 7 klas.
+Klasa Game odpowiedzialna za przekazywanie przycisków, rozdzielczość, instancje gry, okno gry
+Klasa Alien, która opisuje postać przeciwników na niebie i ich pozycjonowaniem
+Klasa PlayerShip, która zajmuje się statkiem naszego bohatera i jego pozycją
+Klasa Shot, odpowiada za odpowiednie wystrzelanie pocisków przez nasz statek
+Klasa abstrakcyjna Entity, reprezentująca każdy obiekt w grze
+Klasa Sprite - zajmuję się obrazem obiektów
+Klasa SpriteStorage przechowuje nasz zapisany obraz
+Dodatkowo wygląd gracza, strzału i przeciwników jest pobierany odpowiednio z plików obrazowych w folderze Resources.

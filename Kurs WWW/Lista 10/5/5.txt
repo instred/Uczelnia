@@ -1,0 +1,10 @@
+Same-origin policy (reguła tego samego pochodzenia) to istotny mechanizm bezpieczeństwa, który określa sposób, 
+w jaki dokument lub skrypt jednego pochodzenia (origin) może komunikować się z zasobem innego pochodzenia. 
+Pozwala to na odizolowanie potencjalnie szkodliwych dokumentów i tym samym redukowane są czynniki sprzyjające atakom.
+
+Poprzez CORS można zezwolić na dostęp cross-origin. CORS jest częścią HTTP, co pozwala serwerom na określanie, 
+które hosty są upoważnione do ładowania treści z tego serweru.
+
+Nazwa JSONP  pochodzi od JSON with Padding. 
+Jest to rozwiązanie pozwalające obejść zabezpieczenie Same-origin policy (SOP). Opiera się ono na wyjątku, 
+w którym zewnętrze zasoby możemy  załadować przez znacznik <script/>.

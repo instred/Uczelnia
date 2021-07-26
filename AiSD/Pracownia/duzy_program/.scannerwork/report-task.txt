@@ -1,0 +1,6 @@
+projectKey=program3
+serverUrl=http://localhost:9000
+serverVersion=8.8.0.42792
+dashboardUrl=http://localhost:9000/dashboard?id=program3
+ceTaskId=AXjMIRetSSZT_UC0JS8p
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AXjMIRetSSZT_UC0JS8p

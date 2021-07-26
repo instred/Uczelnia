@@ -1,0 +1,2 @@
+Jeżeli wyślemy plik binarny, w tym przypadku plik o rozszerzeniu jpg, widzimy że content-type zmienił się na image/jpeg.
+Jednak zdjęcie nie wyświetla się, widzimy jedynie nazwę pliku, oraz pusty "name".

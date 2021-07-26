@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <!--        Link rel przed style -> bierze pod uwage jedynie kolory ze style-->
+        <style type="text/css">
+            p { color: green !important; }
+            div { color: blue; }
+            h2 { color: red; }
+        </style>
+        <link rel="stylesheet" href="style1.css"/>
+        <!--        Link rel po style -> bierze pod uwage wszystkie style, jeżeli jest kilka takich samych, nadpisuje je
+                    -> wszystkie znaczniki są czerwone, bo bierze najpierw <style>, potem style 2 które są najpierw importowane, następnie style 1 i nadpisuje -->
+        <title>
+        Title
+
+        </title>
+        <div>
+            <p style="color: yellow">
+                P text in div
+            </p>
+        </div>
+<!--        Kolor bezpośrednio w znaczniku jest ważniejszy niż importowane/zawarte w style, chyba że jest to important, wtedy to on jest najważniejszy-->
+        <div>
+            <h2>
+                H2 text in div
+            </h2>
+        </div>
+        <div>
+            Empty div
+        </div>
+    </head>
+    <body>
+        <div>
+            Empty div(body)
+        </div>
+        <div>
+            <p>
+                P in Div
+            </p>
+        </div>
+        <div>
+            <h2>
+                H2 in div
+            </h2>
+        </div>
+    </body>
+</html>

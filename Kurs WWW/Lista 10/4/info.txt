@@ -1,0 +1,14 @@
+.ajaxPrefilter służy do obsługi otrzymywanych ustawień oraz do ich modyfikacji.
+przetrzymuje lub edytuje ustawienia zanim zostaje wysłane żądanie przed wywołaniem metody $.ajax()
+Przykładowo:
+Kilka użytowników używa pewnego przycisku, jednak prefilter przyjmie tylko kliknięcie od określonego specjalnego użytkownika.
+Następnie zmieni ustawienia wg jego żądania.
+
+.ajaxTransporter
+tworzy obiekt przechowujący dane aktualnie transmitowane przez AJAX
+Można użyć tego przykładowo do obsługi błędów, a nastęonie przesłania odpowiednich komunikatów
+
+
+Konwertery ajax
+Konwertery służą do przekształcania określonego tekstu na konkretny język.
+Przykładowo, możemy użyć konwertera aby określony komunikat na stronie zamienić na XML.

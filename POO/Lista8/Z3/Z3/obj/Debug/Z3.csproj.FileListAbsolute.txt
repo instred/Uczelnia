@@ -1,0 +1,2 @@
+C:\Users\jakub\Desktop\Uczelnia\POO\Lista8\Z3\Z3\obj\Debug\Z3.csprojAssemblyReference.cache
+C:\Users\jakub\Desktop\Uczelnia\POO\Lista8\Z3\Z3\obj\Debug\Z3.csproj.CoreCompileInputs.cache

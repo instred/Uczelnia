@@ -1,0 +1,4 @@
+Moduł Directions umożliwia obliczenie trasy i wyświetlenie jej na mapie. 
+Trasę można przeciągać domyślnie w celu łatwego dostosowania. Instrukcje są ładnie sformatowane, 
+dostępny jest również domyślny panel wprowadzania.
+W moim przykładzie dodałem również domyślne dwa punkty, które będą się wyświetlać po wczytaniu mapy

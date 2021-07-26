@@ -1,0 +1,16 @@
+C:\Users\jakub\Desktop\Uczelnia\POO\Lista5\Z4\Z4\bin\Debug\net5.0\Z4.exe
+C:\Users\jakub\Desktop\Uczelnia\POO\Lista5\Z4\Z4\bin\Debug\net5.0\Z4.deps.json
+C:\Users\jakub\Desktop\Uczelnia\POO\Lista5\Z4\Z4\bin\Debug\net5.0\Z4.runtimeconfig.json
+C:\Users\jakub\Desktop\Uczelnia\POO\Lista5\Z4\Z4\bin\Debug\net5.0\Z4.runtimeconfig.dev.json
+C:\Users\jakub\Desktop\Uczelnia\POO\Lista5\Z4\Z4\bin\Debug\net5.0\Z4.dll
+C:\Users\jakub\Desktop\Uczelnia\POO\Lista5\Z4\Z4\bin\Debug\net5.0\ref\Z4.dll
+C:\Users\jakub\Desktop\Uczelnia\POO\Lista5\Z4\Z4\bin\Debug\net5.0\Z4.pdb
+C:\Users\jakub\Desktop\Uczelnia\POO\Lista5\Z4\Z4\obj\Debug\net5.0\Z4.csprojAssemblyReference.cache
+C:\Users\jakub\Desktop\Uczelnia\POO\Lista5\Z4\Z4\obj\Debug\net5.0\Z4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jakub\Desktop\Uczelnia\POO\Lista5\Z4\Z4\obj\Debug\net5.0\Z4.AssemblyInfoInputs.cache
+C:\Users\jakub\Desktop\Uczelnia\POO\Lista5\Z4\Z4\obj\Debug\net5.0\Z4.AssemblyInfo.cs
+C:\Users\jakub\Desktop\Uczelnia\POO\Lista5\Z4\Z4\obj\Debug\net5.0\Z4.csproj.CoreCompileInputs.cache
+C:\Users\jakub\Desktop\Uczelnia\POO\Lista5\Z4\Z4\obj\Debug\net5.0\Z4.dll
+C:\Users\jakub\Desktop\Uczelnia\POO\Lista5\Z4\Z4\obj\Debug\net5.0\ref\Z4.dll
+C:\Users\jakub\Desktop\Uczelnia\POO\Lista5\Z4\Z4\obj\Debug\net5.0\Z4.pdb
+C:\Users\jakub\Desktop\Uczelnia\POO\Lista5\Z4\Z4\obj\Debug\net5.0\Z4.genruntimeconfig.cache

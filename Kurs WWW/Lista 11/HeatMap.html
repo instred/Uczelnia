@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Heat Mapa Polski</title>
+        <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+        
+    </head>
+    <body>
+        <div id='printoutPanel'></div>
+        
+        <div id='MapaPolski' style='width: 100vw; height: 100vh;'></div>
+        <script type='text/javascript'>
+            function loadMapScenario() {
+                var map = new Microsoft.Maps.Map(document.getElementById('MapaPolski'), {
+                    center: new Microsoft.Maps.Location(52.205645, 20.55675),
+                    zoom: 11
+                });
+                Microsoft.Maps.loadModule('Microsoft.Maps.HeatMap', function () {
+                    // Creating sample Pushpin data within map view
+                    var mapDiv = map.getRootElement();
+					var locations = [];
+					// Tworzymy tablice, w której będziemy zapisywać współrzędne naszych losowych punktów
+                    for (var i = 0; i < 150; i++) {
+                        var randomLocation = map.tryPixelToLocation(new Microsoft.Maps.Point(mapDiv.clientWidth * Math.random(), mapDiv.clientHeight * Math.random()), Microsoft.Maps.PixelReference.control);
+                        locations.push(randomLocation);
+
+					}
+					// Właściwości naszych Heat punktów typu: rozmiar kół, kolory gradientowe, intensywność kolorów
+                    var heatMap = new Microsoft.Maps.HeatMapLayer(locations, {
+                        intensity: 1.85,
+                        radius: 15,
+                        colorGradient: {
+                            '0': 'Blue',
+                            '0.2': 'Green',
+                            '0.6': 'Orange',
+                            '0.4': 'Yellow',
+                            '1': 'Grey'
+                        },
+                        aggregateLocationWeights: true
+                    });
+                    map.layers.insert(heatMap);
+                });
+                undefined;
+                
+            }
+        </script>
+        <script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?key=YourBingMapsKey&callback=loadMapScenario' async defer></script>
+    </body>
+</html>

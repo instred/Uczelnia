@@ -1,0 +1,11 @@
+C:\Users\jakub\Desktop\Uczelnia\POO\Lista9\Z1\UnitTest\obj\Debug\UnitTest.csprojAssemblyReference.cache
+C:\Users\jakub\Desktop\Uczelnia\POO\Lista9\Z1\UnitTest\obj\Debug\UnitTest.csproj.CoreCompileInputs.cache
+C:\Users\jakub\Desktop\Uczelnia\POO\Lista9\Z1\UnitTest\bin\Debug\UnitTest.dll
+C:\Users\jakub\Desktop\Uczelnia\POO\Lista9\Z1\UnitTest\bin\Debug\UnitTest.pdb
+C:\Users\jakub\Desktop\Uczelnia\POO\Lista9\Z1\UnitTest\bin\Debug\nunit.framework.dll
+C:\Users\jakub\Desktop\Uczelnia\POO\Lista9\Z1\UnitTest\bin\Debug\Z1.exe
+C:\Users\jakub\Desktop\Uczelnia\POO\Lista9\Z1\UnitTest\bin\Debug\Z1.pdb
+C:\Users\jakub\Desktop\Uczelnia\POO\Lista9\Z1\UnitTest\bin\Debug\nunit.framework.xml
+C:\Users\jakub\Desktop\Uczelnia\POO\Lista9\Z1\UnitTest\obj\Debug\UnitTest.csproj.CopyComplete
+C:\Users\jakub\Desktop\Uczelnia\POO\Lista9\Z1\UnitTest\obj\Debug\UnitTest.dll
+C:\Users\jakub\Desktop\Uczelnia\POO\Lista9\Z1\UnitTest\obj\Debug\UnitTest.pdb

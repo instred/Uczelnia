@@ -1,0 +1,88 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "Z1/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Z1.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Z1.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Z1/1.0.0": {
+      "type": "project",
+      "path": "../Z1/Z1.csproj",
+      "msbuildProject": "../Z1/Z1.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "Z1 >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\jakub\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\jakub\\Desktop\\Uczelnia\\POO\\Lista4\\Z1\\Tests\\Tests.csproj",
+      "projectName": "Tests",
+      "projectPath": "C:\\Users\\jakub\\Desktop\\Uczelnia\\POO\\Lista4\\Z1\\Tests\\Tests.csproj",
+      "packagesPath": "C:\\Users\\jakub\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jakub\\Desktop\\Uczelnia\\POO\\Lista4\\Z1\\Tests\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\jakub\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "C:\\Users\\jakub\\Desktop\\Uczelnia\\POO\\Lista4\\Z1\\Z1\\Z1.csproj": {
+              "projectPath": "C:\\Users\\jakub\\Desktop\\Uczelnia\\POO\\Lista4\\Z1\\Z1\\Z1.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

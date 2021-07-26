@@ -1,0 +1,36 @@
+1.
+
+CREATE (movie1:Movie {title:'The Maze Runner', released:2014, tagline:'Maze'}), 
+(movie2:Movie {title:'The Stranger', released:2019, tagline:'Strange Woman'}) RETURN movie1, movie2
+
+CREATE (person2:Person {name:'Marie Curie', born: 1977}), 
+(person3:Person{name:'Leonardo DiCaprio, born 1980'}) RETURN person2, person3
+
+
+2.
+
+MATCH (movie:Movie{title:'The Matrix'})
+SET movie.prop='new_prop1', movie.prop2='new_prop2'
+    RETURN movie
+
+
+3.
+
+CREATE (a:Person {name:'Leonardo DiCaprio'}), (b:Movie {title:'The Matrix'})
+MERGE (a)-[r:ACTED_IN]->(b)
+RETURN a,b
+
+
+4.
+
+MERGE (movie:Movie{title:'The Matrix'})
+SET movie.tagline='Super and FUN!'
+    RETURN movie
+
+
+5.
+
+MATCH (n:Person {name: 'Tom Hanks'})-[r:ACTED_IN]->(m:Movie {title: 'The Matrix'})
+DELETE r
+
+

@@ -1,0 +1,3 @@
+C:/Users/jakub/Desktop/Uczelnia/AiSD/Listy/Lista4/Z2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/jakub/Desktop/Uczelnia/AiSD/Listy/Lista4/Z2/cmake-build-debug/CMakeFiles/Z2.dir
+C:/Users/jakub/Desktop/Uczelnia/AiSD/Listy/Lista4/Z2/cmake-build-debug/CMakeFiles/edit_cache.dir

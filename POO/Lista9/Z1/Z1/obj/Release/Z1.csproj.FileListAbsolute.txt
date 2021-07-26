@@ -1,0 +1,6 @@
+C:\Users\jakub\Desktop\Uczelnia\POO\Lista9\Z1\Z1\bin\Release\Z1.exe
+C:\Users\jakub\Desktop\Uczelnia\POO\Lista9\Z1\Z1\bin\Release\Z1.pdb
+C:\Users\jakub\Desktop\Uczelnia\POO\Lista9\Z1\Z1\obj\Release\Z1.csprojAssemblyReference.cache
+C:\Users\jakub\Desktop\Uczelnia\POO\Lista9\Z1\Z1\obj\Release\Z1.csproj.CoreCompileInputs.cache
+C:\Users\jakub\Desktop\Uczelnia\POO\Lista9\Z1\Z1\obj\Release\Z1.exe
+C:\Users\jakub\Desktop\Uczelnia\POO\Lista9\Z1\Z1\obj\Release\Z1.pdb

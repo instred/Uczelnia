@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1604391850 source:c:\users\jakub\desktop\uczelnia\anl\4\zadanie4\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+
+1604395689 source:c:\users\jakub\downloads\zadanie7.cpp
+	<iostream>
+	<cmath>
+

@@ -1,0 +1,7 @@
+Mapy termiczne, znane również jako mapy gęstości, to rodzaj nakładki na mapę używanej do reprezentowania gęstości danych
+przy użyciu różnych kolorów. Mapy termiczne są często używane do pokazania „gorących punktów” danych na mapie. 
+Mapy termiczne są przydatne, gdy masz dużo danych, które chcesz zobaczyć na mapie. 
+Gdybyś miał wyświetlić dziesiątki tysięcy pinezek na mapie, prawdopodobnie zauważysz, że wydajność mapy spada, 
+a ze względu na liczbę pinezek większość, jeśli nie cała mapa jest zakryta, co czyni ją bezużyteczną. 
+Renderowanie danych jako mapy cieplnej ma dużo lepszą wydajność i pomaga lepiej zrozumieć gęstość danych, 
+jednocześnie będąc w stanie zobaczyć i używać mapy.
